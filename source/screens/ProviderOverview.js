@@ -191,7 +191,6 @@ const styles = StyleSheet.create({
     color: PRIMARY,
   },
   textContainer: {
-    overflow: 'hidden',
     paddingHorizontal: 25,
     paddingTop: 8,
     paddingBottom: 50,

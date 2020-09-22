@@ -1,5 +1,5 @@
 import React from 'react';
-import {SafeAreaView, StatusBar, View} from 'react-native';
+import {StatusBar, View} from 'react-native';
 import {connect} from 'react-redux';
 
 import {saveData} from '../redux/actions';
@@ -17,7 +17,6 @@ const ProviderDetailScreen = ({navigation, route, saveData, state}) => {
       header: ({scene, previous}) => {
         return (
           <>
-            <SafeAreaView />
             <NavigationbarHeaderWithExpandedImage
               scene={scene}
               previous={previous}
